@@ -47,7 +47,9 @@ var BST = function(){
 }
 ```
 
-To see all the values in the BST we will be using the [prettyjson](https://www.npmjs.com/package/prettyjson) module.
+In the example above the TreeNodes was hard coded to be in the right place. The TreeNode with the smallest value on the left and the TreeNode with the biggest value on the right. The `add` function of the BST should have to logic to know where to add the Tree node containing the new value.
+
+To see all the values in the BST you can use the [prettyjson](https://www.npmjs.com/package/prettyjson) module.
 
 Using code like this:
 
